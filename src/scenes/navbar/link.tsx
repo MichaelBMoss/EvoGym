@@ -19,7 +19,7 @@ const Link = ({
     transition duration-500 hover:text-primary-300
     `}
     href={`#${lowerCasePage}`}
-    onClick={}
+    onClick={() => setSelectedPage(lowerCasePage)}
     >
       {page}
     </AnchorLink>  )
