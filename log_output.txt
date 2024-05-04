@@ -1,0 +1,149 @@
+commit c23e147e35adfb867e85407edefa7574884312a3
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Thu May 2 16:04:21 2024 -0700
+
+    Fix file naming and update props usage in Navbar
+    
+    - Renamed link.tsx to Link.tsx to correct casing inconsistency
+    - Added selectedPage and setSelectedPage to props destructuring in Navbar component for direct usage
+
+commit 41d90cecb401480a3efd70cd918e066765025eec
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Tue Apr 30 10:50:24 2024 -0700
+
+    Add type definitions in index.tsx
+    
+    - Add type definitions for selectedPage and setSelectedPage
+
+commit 83150edc2ea4afba18a7c70e33460e6fbea6f82d
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Tue Apr 30 10:47:08 2024 -0700
+
+    Replace placeholder <p> elements with Link components in navbar
+    
+    This commit replaces all the placeholder <p> elements with Link components in the navbar to enhance navigation functionality and improve code modularity.
+
+commit 66a71a5b913fc0561d8e77933950ca533aa24f72
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 29 13:34:56 2024 -0700
+
+    enhance: Expand Link component with dynamic styling and props
+    
+    Enhanced the Link component by adding dynamic class assignment based on the selected page, utilizing the 'selectedPage' prop. Introduced 'setSelectedPage' to manage state changes on click, and implemented logic to convert page names to anchor-friendly IDs by removing spaces and converting to lowercase. Also added smooth transition effects on hover.
+
+commit 2daa33c869f5bd4c3097c55d056c989cc7c449a4
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 29 11:14:48 2024 -0700
+
+    [WIP] Add Link component to Navbar
+    
+    Initializes Link component using tsrfce snippet as foundation for Navbar directory. Enhances navigation functionality.
+
+commit 7aedca9c0932320e5e7d99c55376bbb27da5d2a1
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 29 10:19:03 2024 -0700
+
+    [WIP] Continue work on Navbar component
+    
+    This commit represents progress made on the Navbar component. Although not yet complete, it includes:
+    - Added basic structure for the Navbar component
+    - Integrated logo image
+    - Initialized navigation links and sign-in button
+    
+    Files modified:
+    - src/components/Navbar.tsx
+
+commit c6350f52b4c470b7dd62638eb9713665466bb8b7
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Thu Apr 25 11:57:48 2024 -0700
+
+    feat(navbar): initialize Navbar component structure
+    
+    - Created a new 'scenes' folder in the 'src' directory.
+    - Added a 'navbar' folder within the 'scenes' folder.
+    - Created an 'index.tsx' file in the 'navbar' folder.
+    - Implemented the initial Navbar component using React hooks and Heroicons. This includes basic styling and structure setup.
+
+commit 835284ce59f7ccf3839184ad29487bb260404512
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Thu Apr 25 10:19:53 2024 -0700
+
+    Enhance UI styling for base layout and typography
+    
+    - Added `bg-gray-20` background color to the App component in `app.tsx` to unify the color scheme.
+    - Imported Google fonts (DM Sans and Montserrat) in `index.css` for improved typography across the application.
+    - Set global CSS styles for HTML, body, #root, and .app to ensure full height and width and standardized font-family "DM Sans".
+    - Applied `text-gray-500` utility for default text color to enhance readability.
+    
+    These updates enhance the visual consistency and user experience of the application.
+
+commit 2e76799b61fe8bb7052d02071434f697674cdf7c
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Thu Apr 25 10:03:51 2024 -0700
+
+    Extend Tailwind CSS configuration for custom design elements
+    
+    This commit enhances the Tailwind CSS setup by extending the theme to include custom colors, images, fonts, and responsive breakpoints. Specific additions are:
+    
+    - Custom colors for various design elements, such as grays and primary/secondary color palettes.
+    - Custom background images and gradients to be used across the project.
+    - Custom font families 'DM Sans' and 'Montserrat' for consistent typography.
+    - Custom content images for unique design features.
+    - Defined responsive breakpoints (xs, sm, md) to tailor the UI to different screen sizes.
+    
+    These changes are aimed at improving the aesthetic consistency and responsiveness of the website.
+
+commit bcf0b4e1f16c0b966793821b669c6884fa075e4c
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Tue Apr 23 14:45:00 2024 -0700
+
+    Configure Prettier to use Tailwind CSS plugin in prettier.config.js
+    
+    This commit updates the prettier.config.js to include the prettier-plugin-tailwindcss. This integration ensures that Tailwind CSS classes are automatically formatted and ordered according to best practices, enhancing code consistency and readability.
+
+commit 40e933522a8a89efbc34606992bfe8fb7c0a4bdd
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Tue Apr 23 10:24:45 2024 -0700
+
+    Set up Tailwind CSS with initial configuration and styles
+    
+    - Installed Tailwind CSS, PostCSS, and Autoprefixer as dev dependencies.
+    - Initialized Tailwind configuration and PostCSS setup using Tailwind CLI.
+    - Configured Tailwind to scan HTML and React component files for class names.
+    - Added Tailwind's base, components, and utilities directives to index.css to integrate Tailwind's styling capabilities into the project.
+
+commit 63df6c7497630452c9e19b343f1c6227fdc5619c
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 22 14:32:50 2024 -0700
+
+    Add alias for src directory in Vite config
+
+commit 2bf94783927be29dd34e5db890962498f261e737
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 22 14:12:44 2024 -0700
+
+    initialize index.css
+
+commit b5845c40083ec3e49accf5fe4cc2518a1cbcf662
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 22 14:12:00 2024 -0700
+
+    initialize App.tsx
+
+commit 1dc40bf3425e22233d2317a19fa9b35dc6fcf9c3
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 22 14:08:22 2024 -0700
+
+    delete App.css
+
+commit 595ad50579b83ad69f9a8bcd97c52aea190c5657
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Mon Apr 22 14:06:11 2024 -0700
+
+    replace assets with assets provided by Edroh
+
+commit 3a2a87bcac3541fd3dd6aef20324357ffc1c6377
+Author: MichaelBMoss <michaelbmoss@gmail.com>
+Date:   Fri Apr 19 11:17:42 2024 -0700
+
+    Initial commit
