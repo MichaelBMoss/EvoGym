@@ -1,0 +1,19 @@
+feat: Introduces a new feature to the codebase.
+fix: Patches a bug in your existing code.
+docs: Documentation-only changes.
+style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.).
+refactor: A code change that neither fixes a bug nor adds a feature.
+perf: A code change that improves performance.
+test: Adding missing tests or correcting existing tests.
+build: Changes that affect the build system or external dependencies (e.g., gulp, broccoli, npm).
+ci: Changes to our CI configuration files and scripts (e.g., Travis, CircleCI).
+chore: Routine tasks, updates, or other changes that don't modify src or test files.
+revert: Reverts a previous commit.
+
+_________________________________________________________________________
+
+
+
+
+
+feat: Implement responsive dropdown navbar for mobile views
