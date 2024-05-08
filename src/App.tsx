@@ -20,14 +20,15 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, []);
 
-  return <div className="app bg-gray-20">
-    <Navbar 
-      isTopOfPage={isTopOfPage}
-      selectedPage={selectedPage}
-      setSelectedPage={setSelectedPage}
-    />
-  </div>;
-
+  return ( 
+    <div className="app bg-gray-20">
+      <Navbar 
+        isTopOfPage={isTopOfPage}
+        selectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
+      />
+    </div>
+  );
 }
 
 export default App

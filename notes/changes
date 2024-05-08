@@ -16,4 +16,6 @@ _________________________________________________________________________
 
 
 
-feat: Implement responsive dropdown navbar for mobile views
+feat: Home component
+  - Add Home component to app.tsx
+  - Create
