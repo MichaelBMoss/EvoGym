@@ -16,9 +16,6 @@ _________________________________________________________________________
 
 
 
-  feat: initialize Home component
+[WIP] Home component
 
-- Add `home` directory under `scenes` and create `index.tsx`.
-- Include boilerplate code in `index.tsx` for initial layout.
-- Import and integrate `Home` component into `App.tsx` below the Navbar.
-
+  - Create basic div structure
