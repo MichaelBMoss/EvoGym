@@ -7,6 +7,7 @@ import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { motion } from "framer-motion";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -25,7 +26,17 @@ const Home = ({ setSelectedPage }: Props) => {
         {/* MAIN HEADER */}
         <div className="z-10 mt-32 md:basis-3/5">
           {/* HEADINGS */}
-          <div className="md:-mt-20 ">
+          <motion.div 
+            className="md:-mt-20 "
+            initial="hidden"
+            whileInView="visible"
+            viewport={{once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, x:-50},
+              visible: { opacity: 1, x: 0},
+            }}
+          >
             <div className="relative">
               <div className="before:absolute before:-top-14 before:-left-20 before:z-[-1] md:before:content-evolvetext">
                 <img alt="home-page-text" src={HomePageText} />
@@ -35,7 +46,7 @@ const Home = ({ setSelectedPage }: Props) => {
             <p className="mt-8 text-sm">
               roin porttitor diam nec cursus pellentesque. Sed tincidunt feugiat sapien, in sodales nisi consectetur eu. Fusce ultricies pretium cursus.
             </p>
-          </div>
+          </motion.div>
 
           {/* ACTIONS */}
           <div className="mt-8 flex items-center gap-8">
