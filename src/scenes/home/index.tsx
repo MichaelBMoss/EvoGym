@@ -27,7 +27,7 @@ const Home = ({ setSelectedPage }: Props) => {
           {/* HEADINGS */}
           <div className="md:-mt-20 ">
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+              <div className="before:absolute before:-top-14 before:-left-20 before:z-[-1] md:before:content-evolvetext">
                 <img alt="home-page-text" src={HomePageText} />
               </div>
             </div>
