@@ -14,8 +14,8 @@ _________________________________________________________________________
 
 
 
+[WIP] Benefits component
 
-
-[WIP] Home component
-
-  - Create basic div structure
+- Create shared header component - HText.tsx
+- Use HText.tsx in Benefits component
+- Add header with styling to to Benefits component

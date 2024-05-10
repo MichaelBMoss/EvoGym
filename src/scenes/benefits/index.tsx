@@ -1,8 +1,33 @@
-type Props = {}
+import HText from "@/shared/HText";
+import { SelectedPage } from "@/shared/types"
+import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
+import { motion } from "framer-motion";
 
-const Benefits = (props: Props) => {
+type Props = {
+    setSelectedPage: (value: SelectedPage) => void;
+}
+
+const Benefits = ({ setSelectedPage }: Props) => {
   return (
-    <div>Benefits</div>
+    <section
+      id="benefits"
+      className="mx-auto min-h-full w-5/6 py-20"
+    >
+      <motion.div
+        onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
+      >
+        {/* HEADER */}
+        <div className="my-5 text-sm">
+          <HText>MORE THAN JUST A GYM.</HText>
+          <p className="my-5 text-sm">
+            We provide world class fitness equipment, trainers and classes to
+            get you to your ultimate fitness goals with ease. We provide true
+            care into each and every member.
+          </p>
+        </div>
+      </motion.div>
+
+    </section>
   )
 }
 
