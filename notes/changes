@@ -16,6 +16,5 @@ _________________________________________________________________________
 
 [WIP] Benefits component
 
-- Create shared header component - HText.tsx
-- Use HText.tsx in Benefits component
-- Add header with styling to to Benefits component
+- Create Benefit component to be used in benefits/index.tsx component
+- Created Benefits array in index.tsx and mapped data into benefit components in index.tsx to create benefits section of benefits component
