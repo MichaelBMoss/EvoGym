@@ -47,7 +47,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              roin porttitor diam nec cursus pellentesque. Sed tincidunt feugiat sapien, in sodales nisi consectetur eu. Fusce ultricies pretium cursus.
+              Unrivaled Gym. Unparalleled Training. Exceptional Fitness Classes. World-class studios to help you achieve the body you dream of. Get your dream body now!
             </p>
           </motion.div>
 
