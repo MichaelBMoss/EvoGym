@@ -16,5 +16,4 @@ _________________________________________________________________________
 
 [WIP] Benefits component
 
-- Create Benefit component to be used in benefits/index.tsx component
-- Created Benefits array in index.tsx and mapped data into benefit components in index.tsx to create benefits section of benefits component
+- Create initial loading motion of benefit elements by adding motion.divs to benefits/index.tsx and Benefit.tsx
