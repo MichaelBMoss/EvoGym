@@ -14,6 +14,6 @@ _________________________________________________________________________
 
 
 
-[WIP] Benefits component
+[WIP] Start feature: Contact us component
 
-- Add content: Graphics and description
+- Create src/scenes/contactUs and conactUs/index.tsx and add boilerplate
