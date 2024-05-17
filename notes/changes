@@ -14,6 +14,8 @@ _________________________________________________________________________
 
 
 
-[WIP] Start feature: Contact us component
+[WIP] Continue: Contact us component
 
-- Create src/scenes/contactUs and conactUs/index.tsx and add boilerplate
+  - Add onViewportEnter event handler to Contact Us section. This Updates the selected page state to highlight the Contact Us link in the navbar when the section enters the viewport
+
+  - Add header section with styling to contactUs/index.tsx
