@@ -14,8 +14,6 @@ _________________________________________________________________________
 
 
 
-[WIP] Continue: Contact us component
-
-  - Add onViewportEnter event handler to Contact Us section. This Updates the selected page state to highlight the Contact Us link in the navbar when the section enters the viewport
-
-  - Add header section with styling to contactUs/index.tsx
+    [WIP] Start: Footer component
+    
+      - Create src/scenes/footer and footer/index.tsx with boilerplate code
